@@ -1,0 +1,41 @@
+@import '../../common/colors.scss';
+
+.card-item{
+    background: $secondary-color;
+    cursor: pointer;
+    transition: all .2s ease-in-out;
+
+    &:hover {
+        transform: scale(1.05);
+        transition: all .2s ease-in-out;
+
+    }
+}
+
+.card-top{
+    height: 300px;
+    img{
+        // transition: all .2s ease-in-out;
+        width: 100%;
+        height: 100%;
+    }
+}
+.card-bottom{
+    padding: 20px;
+}
+
+.card-info{
+    color: $font-primary;
+    h4{
+        font-size: 22px;
+        font-weight: 400;
+        margin-bottom: 10px ;
+    }
+  
+}
+.card-info:hover{
+    color: yellow;
+}
+img:hover{
+    // transform: scale(1.05);
+}

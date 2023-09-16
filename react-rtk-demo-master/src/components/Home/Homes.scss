@@ -1,0 +1,35 @@
+.search-bar{
+    display: flex;
+    gap: 5px;
+    margin:  25px 20% 25px 20%  ;
+}
+
+.search-bar > input {
+    color: white;
+    font-size: large;
+    width: 600px;
+    height: 30px;
+    background-color: rgb(54, 56, 55);
+    border: none;
+    
+}
+.search-bar > button{
+    background-color: rgb(54, 56, 55);
+    color: antiquewhite;
+    width: 50px;
+    border: none;
+    cursor: pointer;
+}
+
+.search-bar :hover{
+    box-shadow: 1px 5px 5px #494848;
+    border: 1px solid white;
+    background-color: rgba(56, 59, 58, 0.007);
+}
+
+
+@media only screen and (max-width: 600px){
+    .search-bar >input {
+        width: 200px;
+    }
+  }
